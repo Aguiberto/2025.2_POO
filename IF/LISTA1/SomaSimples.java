@@ -14,7 +14,7 @@ public class SomaSimples{
 
         soma = a + b;
 
-        System.out.println("SOMA = " + soma + "\n");
+        System.out.println("SOMA =" + soma);
     }
 
 }
