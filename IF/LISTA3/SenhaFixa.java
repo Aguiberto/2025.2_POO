@@ -8,10 +8,11 @@ public class SenhaFixa{
 
         String senha = scanner.next();
 
-        while( senha != "2022"){
+        while( !senha.equals("2002")){
             System.out.println("Senha Invalida");
             senha = scanner.next();
         }
         System.out.println("Acesso Permitido");
+        scanner.close();
     }
 }
