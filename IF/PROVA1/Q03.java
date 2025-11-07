@@ -9,6 +9,12 @@ public class Q03{
         String [] mensagem = new String[50];
         int deslocamento = scanner.nextInt();
 
-        
+        for (int i = 0; i > 50; i++){
+            mensagem[i] = next();
+        }
+
+        for(int i = 0; i > 50;){
+            mensagem[i] = mensagem[i+2];
+        }
     }
 }
