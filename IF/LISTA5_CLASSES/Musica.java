@@ -1,11 +1,11 @@
 public class Musica{
 
     // ATRIBUTOS
-    private String titulo;
+    protected String titulo;
     private String artista;
     private String album;
     private String dataInclusao;
-    private int duracao;
+    protected int duracao;
 
     // CONSTRUTOR
     /*Ao criar o objeto musica o usuário terá que informar o valor desses parametros
