@@ -18,6 +18,10 @@ public class Musica{
         this.duracao = duracao;
     }
 
+    public int tempo(){
+        return duracao;
+    }
+
     @Override
     public String toString(){
         return "Musica{" +

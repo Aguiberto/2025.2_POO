@@ -27,11 +27,13 @@ public class PlayList{
     }
     
     public void Listar(){
+        System.out.println("Músicas dessa playlist: ");
         int i = 1;
         for(Musica m: lista_de_musicas){
             System.out.println(i + ". " + m.titulo);
             i++;
         }
+        System.out.println("----------------------------");
     }
 
     public int TempoTotal(){

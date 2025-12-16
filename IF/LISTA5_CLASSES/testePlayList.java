@@ -13,6 +13,7 @@ public class testePlayList{
         favoritos.Listar();
         int tempo = favoritos.TempoTotal();
         
+        System.out.println("Tempo de duração da playlist: " + tempo + " minutos");
         System.out.println(favoritos);
 
     }
