@@ -13,6 +13,14 @@ public class Frete{
         this.peso = peso;
     }
 
+    public double getDistancia(){
+        return distancia;
+    }
+
+    public double getPeso(){
+        return peso;
+    }
+
     @Override
     public String toString(){
         return "{ distância = " + distancia + " / " + 
