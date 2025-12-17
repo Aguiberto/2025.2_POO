@@ -15,6 +15,6 @@ public class FreteExpresso extends Frete{
 
     @Override
     public String toString(){
-        return "{ seguro = " + seguro +"}";
+        return  super.toString() + "{seguro = " + seguro +"}";
     }
 }
