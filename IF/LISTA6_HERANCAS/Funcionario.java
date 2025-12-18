@@ -28,7 +28,7 @@ public class Funcionario{
     public String toString(){
         return "{nome = " + nome + " / " +
                 "email = " + email + " / " +
-                "telefone = " + telefone + "}";
+                "telefone = " + telefone;
     }
 
 }

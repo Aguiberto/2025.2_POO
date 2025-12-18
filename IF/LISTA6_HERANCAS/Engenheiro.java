@@ -12,6 +12,6 @@ public class Engenheiro extends Funcionario{
 
     @Override
     public String toString(){
-        return super.toString() + "crea = " + crea; 
+        return super.toString() + " / crea = " + crea + "}"; 
     }
 }
