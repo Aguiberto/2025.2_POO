@@ -4,29 +4,31 @@ public class Funcionario{
     private String email;
     private String telefone;
 
-    public setNome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
-    public setEmail(Strig email){
+    public void setEmail(String email){
         this.email = email;
     }
-    public setFone(Strig setFone){
+    public void setFone(String fone){
         this.telefone = fone;
     }
     
-    public Strig getNome(){
+    public String getNome(){
         return nome;
     }
-    public Strig getEmail(){
+    public String getEmail(){
         return email;
     }
-    public Strig getFone(){
+    public String getFone(){
         return telefone;
     }
     
     @Override 
-    public Strig toString(){
-        return "{nome = }"
+    public String toString(){
+        return "{nome = " + nome + " / " +
+                "email = " + email + " / " +
+                "telefone = " + telefone + "}";
     }
 
 }
