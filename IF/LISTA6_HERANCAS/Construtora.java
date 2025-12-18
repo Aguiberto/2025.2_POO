@@ -37,4 +37,9 @@ public class Construtora{
         } return lista_motorista;
     }
 
+    @Override
+    public String toString(){
+        return " A construtora tem: " + funcionarios.size() + " funcionários.";
+    }
+
 }
